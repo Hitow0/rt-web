@@ -99,19 +99,19 @@
           margin-bottom: 0;
           font-weight: 400;
           text-align: center;
-          font-size: 3.5vw;
+          font-size: 64px;
           margin-top:1vh;
         }
         .date{
           text-align:center;
           margin-top:0;
-          font-size: 1.5vw;
+          font-size: 24px;
         }
         .desc {
           margin-left: 1vw;
           overflow-y: auto;
           overflow-x:hidden;
-          font-size: 1.1vw;
+          font-size: 16px;
 
           /* Pour Webkit (Chrome, Safari, Edge) */
           &::-webkit-scrollbar {
@@ -149,25 +149,6 @@
 
       h3{
         font-size: calc(2*2.8645833333333335vw);
-      }
-    }
-
-    .actus {
-      .container{
-        .annonce{
-          h2{
-            font-size: calc(3*3.5vw);
-          }
-
-          .date{
-            font-size: calc(3*1.5vw);
-          }
-
-          .desc{
-            font-size: calc(4*1.1vw);
-          }
-
-        }
       }
     }
   }
