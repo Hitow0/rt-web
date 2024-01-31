@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/pages/homepage.scss'
 import NavBar from "../components/global/NavBar";
 import Actus from "../components/home/Actus";
+import Footer from "../components/global/Footer";
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <div className={'sep'}></div>
             <Actus/>
             <div className={'sep2'}></div>
+            <Footer/>
         </div>
     );
 };
