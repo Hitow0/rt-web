@@ -33,6 +33,7 @@
     justify-content: center;
 
     h3{
+      text-align: center;
       margin:0;
     }
 
@@ -69,6 +70,26 @@
 
       h3{
         margin:0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    .copyrights{
+      h3{
+        font-size: 18px;
+      }
+
+      p{
+        font-size: 12px;
+      }
+    }
+
+    .wildya-ip{
+      .container{
+        h3{
+          font-size: 18px;
+        }
       }
     }
   }
