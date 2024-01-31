@@ -15,7 +15,7 @@
     align-items: center;
 
     img{
-      width: 80px;
+      width: 4vw;
     }
   }
 
@@ -35,6 +35,10 @@
 
       p{
         text-decoration: underline;
+      }
+
+      img{
+        width:0.9vw;
       }
     }
 
@@ -139,6 +143,10 @@
         &:hover{
          filter:brightness(2);
         }
+
+        img{
+          width:1.5vw;
+        }
       }
     }
   }
@@ -220,6 +228,18 @@
       top:7vh;
       left:30vw !important;
     }
+    .link{
+      img{
+        width: 10vw;
+      }
+    }
+    .logo{
+      margin-left: 5vw;
+
+      img{
+        width:10vw;
+      }
+    }
     .search {
       .container {
         width: calc(1.5 * 15vw);
@@ -236,11 +256,16 @@
             font-size: calc(1.5 * 0.8vw);
           }
         }
+        .search-button{
+          img{
+            width:5vw;
+          }
+        }
       }
     }
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 700px){
     .navlink{
       display: none;
     }
@@ -255,6 +280,7 @@
     }
     .logo{
       margin-left: 5vw;
+      img{}
     }
 
     .search {

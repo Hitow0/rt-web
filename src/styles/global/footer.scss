@@ -14,7 +14,7 @@
     flex-direction: row;
     gap:1.5vw;
     img{
-      width:32px;
+        width: 1.8vw;
 
       &:hover{
         filter: brightness(2);
@@ -67,19 +67,25 @@
       &:hover{
         filter:brightness(0.8);
       }
-
+      img{
+        width: 1.5vw;
+      }
       h3{
         margin:0;
       }
     }
   }
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 700px){
+    .medias{
+      img{
+        width: 5vw;
+      }
+    }
     .copyrights{
       h3{
         font-size: 18px;
       }
-
       p{
         font-size: 12px;
       }
@@ -89,6 +95,9 @@
       .container{
         h3{
           font-size: 18px;
+        }
+        img{
+          width: 5vw;
         }
       }
     }
