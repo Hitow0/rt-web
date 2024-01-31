@@ -6,7 +6,7 @@ const Actus = () => {
         <div className={'actus'}>
             <div className={'container'}>
                 {annonces.annonces.map((annonce, index) => (
-                    <div key={index} className={'annonce'} style={{backgroundImage: `url(${annonce.imageFond})`}}>
+                    <div key={index} className={'annonce'} style={{backgroundImage: `url(/rankedtower-web${annonce.imageFond})`}}>
                         <h2>{annonce.titre}</h2>
                         <p className={'date'}>Date: {annonce.date}</p>
                         <p className={'desc'}>{annonce.description}</p>

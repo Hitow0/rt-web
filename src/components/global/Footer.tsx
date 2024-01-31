@@ -26,13 +26,13 @@ const Footer = () => {
         <div className={'footer'}>
             <div className={'medias'}>
                 <a href={'https://discord.gg/rankedtower'} target="_blank" rel="noopener noreferrer">
-                    <img src={'/icons/discord.svg'} alt={'discord icon'}/>
+                    <img src={'rankedtower-web/icons/discord.svg'} alt={'discord icon'}/>
                 </a>
                 <a href={'https://www.youtube.com/@RankedTower'} target="_blank" rel="noopener noreferrer">
-                    <img src={'/icons/youtube.svg'} alt={'youtube icon'}/>
+                    <img src={'rankedtower-web/icons/youtube.svg'} alt={'youtube icon'}/>
                 </a>
                 <a href={'https://www.tiktok.com/@ranked.tower'} target="_blank" rel="noopener noreferrer">
-                    <img src={'/icons/tiktok.svg'} alt={'tiktok icon'}/>
+                    <img src={'rankedtower-web/icons/tiktok.svg'} alt={'tiktok icon'}/>
                 </a>
             </div>
             <div className={'copyrights'}>
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
             <div className={'wildya-ip'}>
                 <div className={'container'} onClick={copyToClipboard}>
-                    <img src={'/icons/server.svg'} alt={'server icon'}/>
+                    <img src={'rankedtower-web/icons/server.svg'} alt={'server icon'}/>
                     <h3>play.wildya.fr</h3>
                 </div>
             </div>
