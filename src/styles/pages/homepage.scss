@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.home{
+  width:100vw;
+  height:100vh;
+  background-image: url("../../../public/img/Fond.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x:hidden;
+
+  /* Pour Webkit (Chrome, Safari, Edge) */
+  &::-webkit-scrollbar {
+    width: 6px; /* Largeur de la scrollbar */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9 !important; /* Couleur de la barre de défilement */
+    border-radius: 6px !important; /* Arrondir les coins de la barre de défilement */
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Couleur de l'arrière-plan de la scrollbar */
+  }
+
+  /* Cacher les flèches de défilement */
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  .title{
+    margin-left:4vw;
+    padding-top: 8vh;
+
+    h1{
+      color: #FFF;
+      text-shadow: 0 10px 12px #000;
+      font-family: "Bebas Neue", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 0;
+      margin-top:8vh;
+      font-size: 4.166666666666667vw;
+
+    }
+
+    h3{
+      margin:0;
+      color: #FF1A26;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 2.8645833333333335vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      position:relative;
+      bottom:1.125vw;
+      text-decoration: underline;
+      text-shadow: 0 2px 3px #000;
+    }
+  }
+
+  .sep{
+    background: linear-gradient(0deg, rgb(2, 2, 2,0.8),transparent 100%);
+    width:100vw;
+    height:4vw;
+  }
+  .actus{
+    background: rgba(2, 2, 2, 0.8);
+    padding: 5vw 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+      width:90%;
+      height:80%;
+      display: flex;
+      gap:5vw;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .annonce{
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:500px;
+        height:40vh;
+        border-radius: 2.5vw;
+        display: flex;
+        flex-direction: column;
+        color:white;
+        font-weight: 400;
+        font-family: "Bebas Neue", sans-serif;
+
+        h2{
+          margin-bottom: 0;
+          font-weight: 400;
+          text-align: center;
+          font-size: 3.5vw;
+          margin-top:1vh;
+        }
+        .date{
+          text-align:center;
+          margin-top:0;
+          font-size: 1.5vw;
+        }
+        .desc {
+          margin-left: 1vw;
+          overflow-y: auto;
+          overflow-x:hidden;
+          font-size: 1.1vw;
+
+          /* Pour Webkit (Chrome, Safari, Edge) */
+          &::-webkit-scrollbar {
+            width: 6px; /* Largeur de la scrollbar */
+          }
+
+          &::-webkit-scrollbar-thumb {
+            background-color: #D9D9D9 !important; /* Couleur de la barre de défilement */
+            border-radius: 6px !important; /* Arrondir les coins de la barre de défilement */
+          }
+
+          &::-webkit-scrollbar-track {
+            background-color: transparent; /* Couleur de l'arrière-plan de la scrollbar */
+          }
+
+          /* Cacher les flèches de défilement */
+          &::-webkit-scrollbar-button {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .sep2{
+    background: linear-gradient(180deg, rgb(2, 2, 2,0.8),transparent 100%);
+    width:100vw;
+    height:4vw;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .title{
+      h1{
+        font-size: calc(2*4.166666666666667vw);
+      }
+
+      h3{
+        font-size: calc(2*2.8645833333333335vw);
+      }
+    }
+
+    .actus {
+      .container{
+        .annonce{
+          h2{
+            font-size: calc(3*3.5vw);
+          }
+
+          .date{
+            font-size: calc(3*1.5vw);
+          }
+
+          .desc{
+            font-size: calc(4*1.1vw);
+          }
+
+        }
+      }
+    }
+  }
+}
+
