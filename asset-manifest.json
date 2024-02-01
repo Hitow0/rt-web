@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rankedtower-web/static/css/main.647ecdd5.css",
-    "main.js": "/rankedtower-web/static/js/main.2e4d1e5f.js",
+    "main.js": "/rankedtower-web/static/js/main.0c9abcbe.js",
     "static/js/787.6f3b3644.chunk.js": "/rankedtower-web/static/js/787.6f3b3644.chunk.js",
     "static/media/Fond.png": "/rankedtower-web/static/media/Fond.72661107bf7ea774f480.png",
     "index.html": "/rankedtower-web/index.html",
     "main.647ecdd5.css.map": "/rankedtower-web/static/css/main.647ecdd5.css.map",
-    "main.2e4d1e5f.js.map": "/rankedtower-web/static/js/main.2e4d1e5f.js.map",
+    "main.0c9abcbe.js.map": "/rankedtower-web/static/js/main.0c9abcbe.js.map",
     "787.6f3b3644.chunk.js.map": "/rankedtower-web/static/js/787.6f3b3644.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.647ecdd5.css",
-    "static/js/main.2e4d1e5f.js"
+    "static/js/main.0c9abcbe.js"
   ]
 }
