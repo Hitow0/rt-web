@@ -1,11 +1,45 @@
-import React, {useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import '../../styles/global/navbar.scss'
 
 const NavBar = () => {
 
     const [isMenuVisible, setMenuVisible] = useState(false);
     const [isPalmaresMenuVisible, setPalmaresMenuVisible] = useState(false);
-    const [currentPage, setCurrentPage] = useState('accueil'); // Ajout de la variable d'état
+    const [currentPage, setCurrentPage] = useState('accueil');
+    const palmaresButtonRef = useRef<HTMLDivElement>(null);
+    const menuButtonRef = useRef<HTMLDivElement>(null);
+    const palmaresMenuRef = useRef<HTMLDivElement>(null);
+    const menuRef = useRef<HTMLDivElement>(null);
+
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (
+                palmaresButtonRef.current &&
+                !palmaresButtonRef.current.contains(event.target as Node) &&
+                palmaresMenuRef.current &&
+                !palmaresMenuRef.current.contains(event.target as Node)
+            ) {
+                setPalmaresMenuVisible(false);
+            }
+            if (
+                menuButtonRef.current &&
+                !menuButtonRef.current.contains(event.target as Node) &&
+                menuRef.current &&
+                !menuRef.current.contains(event.target as Node)
+            ) {
+                setMenuVisible(false);
+            }
+        };
+
+        document.addEventListener('click', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, [palmaresButtonRef]);
+
+
 
     const toggleMenu = () => {
         setCurrentPage('burger')
@@ -44,7 +78,7 @@ const NavBar = () => {
                     <p>Leaderboard</p>
                 </div>
                 <div className={`link ${currentPage === 'palmares' ? 'active' : ''}`}
-                     onClick={() => {togglePalmaresMenu()} }>
+                     onClick={() => {togglePalmaresMenu()} } ref={palmaresButtonRef}>
                          < img src={'/rankedtower-web/icons/palmares.svg'} alt={'palmares icon'}/>
                          <p>Palmarès</p>
                      {!isPalmaresMenuVisible && (
@@ -56,7 +90,7 @@ const NavBar = () => {
                 )}
             </div>
             {isPalmaresMenuVisible && (
-                <div className={'palmares-menu'}>
+                <div className={'palmares-menu'} ref={palmaresMenuRef}>
                     <div className={`link ${currentPage === 'all stars 1' ? 'active' : ''}`}
                          onClick={() => changePage('all stars 1')}>
                         <img src={'/rankedtower-web/icons/palmares.svg'} alt={'palmares icon'}/>
@@ -98,12 +132,12 @@ const NavBar = () => {
                 </div>
             </div>
             <div className={`burger ${currentPage === 'burger' ? 'active' : ''}`}
-                     onClick={() => {toggleMenu()}}>
+                     onClick={() => {toggleMenu()}} ref={menuButtonRef}>
                 <img src={'/rankedtower-web/icons/burger-menu.svg'} alt={'burger menu icon'}/>
             </div>
 
             {isMenuVisible && (
-                <div className={'menu'}>
+                <div className={'menu'} ref={menuRef}>
                     <div className={`link ${currentPage === 'accueil' ? 'active' : ''}`}
                          onClick={() => changePage('accueil')}>
                         <img src={'/rankedtower-web/icons/home.svg'} alt={'home icon'}/>
@@ -114,7 +148,7 @@ const NavBar = () => {
                         <img src={'/rankedtower-web/icons/leaderboard.svg'} alt={'medal icon'}/>
                         <p>Leaderboard</p>
                     </div>
-                    <div className={`link ${currentPage === 'palmares' ? 'active' : ''}`} onClick={togglePalmaresMenu}>
+                    <div className={`link ${currentPage === 'palmares' ? 'active' : ''}`} onClick={togglePalmaresMenu} ref={palmaresButtonRef}>
                         <img src={'/rankedtower-web/icons/palmares.svg'} alt={'palmares icon'}/>
                         <p>Palmarès</p>
                         {!isPalmaresMenuVisible && (
@@ -126,7 +160,7 @@ const NavBar = () => {
                     </div>
                     {isPalmaresMenuVisible && (
 
-                        <div className={'palmares-menu'}>
+                        <div className={'palmares-menu'} ref={palmaresMenuRef}>
                             <div className={`link ${currentPage === 'all stars 1' ? 'active' : ''}`}
                                  onClick={() => changePage('all stars 1')}>
                                 <img src={'/rankedtower-web/icons/palmares.svg'} alt={'palmares icon'}/>
