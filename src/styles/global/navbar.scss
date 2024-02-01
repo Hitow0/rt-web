@@ -275,12 +275,16 @@
       justify-content: center;
     }
 
+    .link{
+      img{
+        width:2vw;
+      }
+    }
     .menu{
       display: flex;
     }
     .logo{
       margin-left: 5vw;
-      img{}
     }
 
     .search {
