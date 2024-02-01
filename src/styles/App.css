@@ -8,3 +8,7 @@
 a{
     text-decoration: none;
 }
+
+.active{
+    filter:brightness(2);
+}
