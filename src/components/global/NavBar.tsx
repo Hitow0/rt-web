@@ -42,13 +42,11 @@ const NavBar = () => {
 
 
     const toggleMenu = () => {
-        setCurrentPage('burger')
         setMenuVisible(!isMenuVisible);
         setPalmaresMenuVisible(false)
     };
 
     const togglePalmaresMenu = () => {
-        setCurrentPage('palmares')
         setPalmaresMenuVisible(!isPalmaresMenuVisible);
     };
 
