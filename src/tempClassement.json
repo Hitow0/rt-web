@@ -1,0 +1,98 @@
+[
+  {
+    "pseudo": "ImV12",
+    "elos": 1150,
+    "played": 80,
+    "win": 60,
+    "lost": 20,
+    "mvp": 14
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 980,
+    "played": 65,
+    "win": 40,
+    "lost": 25,
+    "mvp": 10
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1050,
+    "played": 78,
+    "win": 55,
+    "lost": 23,
+    "mvp": 18
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1020,
+    "played": 75,
+    "win": 48,
+    "lost": 27,
+    "mvp": 12
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1100,
+    "played": 82,
+    "win": 62,
+    "lost": 20,
+    "mvp": 20
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 970,
+    "played": 68,
+    "win": 45,
+    "lost": 23,
+    "mvp": 15
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1080,
+    "played": 79,
+    "win": 53,
+    "lost": 26,
+    "mvp": 17
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1005,
+    "played": 71,
+    "win": 52,
+    "lost": 19,
+    "mvp": 14
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1120,
+    "played": 77,
+    "win": 58,
+    "lost": 19,
+    "mvp": 19
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 990,
+    "played": 70,
+    "win": 47,
+    "lost": 23,
+    "mvp": 13
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1040,
+    "played": 73,
+    "win": 50,
+    "lost": 23,
+    "mvp": 16
+  },
+  {
+    "pseudo": "ImV12",
+    "elos": 1075,
+    "played": 76,
+    "win": 54,
+    "lost": 22,
+    "mvp": 15
+  }
+]

@@ -7,7 +7,7 @@ import Footer from "../components/global/Footer";
 const HomePage = () => {
     return (
         <div className={"home"}>
-            <NavBar/>
+            <NavBar currentPage={"accueil"} />
             <div className={'title'}>
                 <h1>DISCORD.GG/RANKEDTOWER</h1>
                 <h3>LE SOMMET DE LA COMPÉTITION !</h3>

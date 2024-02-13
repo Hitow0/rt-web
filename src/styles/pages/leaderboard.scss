@@ -1,0 +1,16 @@
+.leaderboard{
+  width:100vw;
+  height:100vh;
+  background-image: url("../../../public/img/Fond.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x:hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .table_container{
+    padding-top:8vh;
+  }
+}
