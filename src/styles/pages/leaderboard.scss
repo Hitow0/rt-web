@@ -1,16 +1,99 @@
 .leaderboard{
   width:100vw;
-  height:100vh;
+  min-height: 100vh;
+  height: 100vh;
   background-image: url("../../../public/img/Fond.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x:hidden;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 
   .table_container{
-    padding-top:8vh;
+    padding-top:10vh;
+    height: 100vh;
+    overflow:hidden;
+    margin: 0 5vw;
+
+    .table{
+      height:100vh;
+      width:90vw;
+      overflow: hidden;
+      display: flex;
+      gap:1vw;
+      flex-direction: column;
+      .tbody{
+        height: 60vh;
+        overflow-y: scroll;
+        display: flex;
+        gap:1vw;
+        flex-direction: column;
+
+        /* Pour Webkit (Chrome, Safari, Edge) */
+        &::-webkit-scrollbar {
+          width: 6px; /* Largeur de la scrollbar */
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background-color: #D9D9D9 !important; /* Couleur de la barre de défilement */
+          border-radius: 6px !important; /* Arrondir les coins de la barre de défilement */
+        }
+
+        &::-webkit-scrollbar-track {
+          background-color: transparent; /* Couleur de l'arrière-plan de la scrollbar */
+        }
+
+        /* Cacher les flèches de défilement */
+        &::-webkit-scrollbar-button {
+          display: none;
+        }
+      }
+      .tr{
+        display: flex;
+        gap:3.5vw;
+        flex-direction: row;
+        background-color: rgba(0,0,0,0.25);
+        border-radius: 15px;
+        padding:1vh 0;
+
+
+        .th{
+          display: flex;
+          gap:1vw;
+          width: 10vw;
+          font-size:1.5vw;
+          align-items: center;
+          justify-content: center;
+
+
+          svg{
+            width: 1.5vw;
+          }
+        }
+        .td{
+          display: flex;
+          gap:1vw;
+          width: 10vw;
+          font-size:1.25vw;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          .pseudo{
+            display: flex;
+            justify-content: flex-start;
+            width:100%;
+            gap:1vw;
+            img{
+              width: 1.5vw;
+              height: 1.5vw;
+              border-radius: 12px;
+            }
+          }
+
+        }
+      }
+
+    }
   }
 }

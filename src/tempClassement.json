@@ -1,6 +1,6 @@
 [
   {
-    "pseudo": "ImV12",
+    "pseudo": "VeveClicker",
     "elos": 1150,
     "played": 80,
     "win": 60,
@@ -8,91 +8,339 @@
     "mvp": 14
   },
   {
-    "pseudo": "ImV12",
+    "pseudo": "ParticuleMod",
+    "elos": 0,
+    "played": 80,
+    "win": 0,
+    "lost": 80,
+    "mvp": 0
+  },
+  {
+    "pseudo": "Messieurs",
+    "elos": 1,
+    "played": 10,
+    "win": 1,
+    "lost": 9,
+    "mvp": 1
+  },
+  {
+    "pseudo": "NebulaX",
     "elos": 980,
-    "played": 65,
-    "win": 40,
-    "lost": 25,
-    "mvp": 10
+    "played": 50,
+    "win": 30,
+    "lost": 20,
+    "mvp": 8
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1050,
-    "played": 78,
-    "win": 55,
-    "lost": 23,
-    "mvp": 18
+    "pseudo": "QuantumCoder",
+    "elos": 420,
+    "played": 50,
+    "win": 10,
+    "lost": 40,
+    "mvp": 5
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1020,
-    "played": 75,
-    "win": 48,
-    "lost": 27,
+    "pseudo": "StarGazer",
+    "elos": 750,
+    "played": 30,
+    "win": 20,
+    "lost": 10,
     "mvp": 12
   },
   {
-    "pseudo": "ImV12",
+    "pseudo": "GalacticMaster",
+    "elos": 780,
+    "played": 40,
+    "win": 25,
+    "lost": 15,
+    "mvp": 10
+  },
+  {
+    "pseudo": "NovaKnight",
+    "elos": 600,
+    "played": 45,
+    "win": 15,
+    "lost": 30,
+    "mvp": 6
+  },
+  {
+    "pseudo": "CosmicStrategist",
+    "elos": 850,
+    "played": 25,
+    "win": 18,
+    "lost": 7,
+    "mvp": 9
+  },
+  {
+    "pseudo": "AstroChampion",
     "elos": 1100,
-    "played": 82,
-    "win": 62,
-    "lost": 20,
+    "played": 60,
+    "win": 45,
+    "lost": 15,
     "mvp": 20
   },
   {
-    "pseudo": "ImV12",
-    "elos": 970,
-    "played": 68,
-    "win": 45,
-    "lost": 23,
+    "pseudo": "SolarSniper",
+    "elos": 680,
+    "played": 35,
+    "win": 25,
+    "lost": 10,
+    "mvp": 7
+  },
+  {
+    "pseudo": "GalaxyGladiator",
+    "elos": 920,
+    "played": 55,
+    "win": 40,
+    "lost": 15,
     "mvp": 15
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1080,
-    "played": 79,
-    "win": 53,
-    "lost": 26,
-    "mvp": 17
+    "pseudo": "QuantumHero",
+    "elos": 550,
+    "played": 20,
+    "win": 12,
+    "lost": 8,
+    "mvp": 4
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1005,
-    "played": 71,
-    "win": 52,
-    "lost": 19,
-    "mvp": 14
+    "pseudo": "StellarWarrior",
+    "elos": 720,
+    "played": 30,
+    "win": 22,
+    "lost": 8,
+    "mvp": 11
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1120,
-    "played": 77,
-    "win": 58,
-    "lost": 19,
-    "mvp": 19
-  },
-  {
-    "pseudo": "ImV12",
-    "elos": 990,
-    "played": 70,
-    "win": 47,
-    "lost": 23,
+    "pseudo": "NebulaCommander",
+    "elos": 890,
+    "played": 40,
+    "win": 30,
+    "lost": 10,
     "mvp": 13
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1040,
-    "played": 73,
-    "win": 50,
-    "lost": 23,
+    "pseudo": "AstralAce",
+    "elos": 980,
+    "played": 50,
+    "win": 35,
+    "lost": 15,
+    "mvp": 17
+  },
+  {
+    "pseudo": "CelestialStriker",
+    "elos": 630,
+    "played": 25,
+    "win": 15,
+    "lost": 10,
+    "mvp": 5
+  },
+  {
+    "pseudo": "SupernovaSlayer",
+    "elos": 800,
+    "played": 45,
+    "win": 32,
+    "lost": 13,
+    "mvp": 14
+  },
+  {
+    "pseudo": "GalacticGuardian",
+    "elos": 720,
+    "played": 35,
+    "win": 20,
+    "lost": 15,
+    "mvp": 10
+  },
+  {
+    "pseudo": "QuasarQuickshot",
+    "elos": 670,
+    "played": 30,
+    "win": 18,
+    "lost": 12,
+    "mvp": 8
+  },
+  {
+    "pseudo": "OrionOverlord",
+    "elos": 920,
+    "played": 50,
+    "win": 38,
+    "lost": 12,
     "mvp": 16
   },
   {
-    "pseudo": "ImV12",
-    "elos": 1075,
-    "played": 76,
-    "win": 54,
-    "lost": 22,
+    "pseudo": "GalaxyGunslinger",
+    "elos": 600,
+    "played": 25,
+    "win": 10,
+    "lost": 15,
+    "mvp": 6
+  },
+  {
+    "pseudo": "CosmicConqueror",
+    "elos": 1100,
+    "played": 55,
+    "win": 50,
+    "lost": 5,
+    "mvp": 22
+  },
+  {
+    "pseudo": "EclipsedExemplar",
+    "elos": 780,
+    "played": 40,
+    "win": 28,
+    "lost": 12,
+    "mvp": 13
+  },
+  {
+    "pseudo": "LunarLancer",
+    "elos": 560,
+    "played": 20,
+    "win": 10,
+    "lost": 10,
+    "mvp": 4
+  },
+  {
+    "pseudo": "PulsarPilot",
+    "elos": 850,
+    "played": 35,
+    "win": 28,
+    "lost": 7,
+    "mvp": 11
+  },
+  {
+    "pseudo": "AsteroidAssassin",
+    "elos": 720,
+    "played": 30,
+    "win": 20,
+    "lost": 10,
+    "mvp": 9
+  },
+  {
+    "pseudo": "NebulaNinja",
+    "elos": 920,
+    "played": 40,
+    "win": 32,
+    "lost": 8,
     "mvp": 15
+  },
+  {
+    "pseudo": "StellarSorcerer",
+    "elos": 780,
+    "played": 35,
+    "win": 24,
+    "lost": 11,
+    "mvp": 12
+  },
+  {
+    "pseudo": "CelestialChampion",
+    "elos": 1050,
+    "played": 55,
+    "win": 50,
+    "lost": 5,
+    "mvp": 18
+  },
+  {
+    "pseudo": "SupernovaSniper",
+    "elos": 690,
+    "played": 30,
+    "win": 22,
+    "lost": 8,
+    "mvp": 10
+  },
+  {
+    "pseudo": "GalacticGuru",
+    "elos": 820,
+    "played": 45,
+    "win": 34,
+    "lost": 11,
+    "mvp": 14
+  },
+  {
+    "pseudo": "QuantumQuasar",
+    "elos": 630,
+    "played": 25,
+    "win": 15,
+    "lost": 10,
+    "mvp": 8
+  },
+  {
+    "pseudo": "AstralAvenger",
+    "elos": 940,
+    "played": 50,
+    "win": 38,
+    "lost": 12,
+    "mvp": 17
+  },
+  {
+    "pseudo": "NebulaNomad",
+    "elos": 870,
+    "played": 40,
+    "win": 28,
+    "lost": 12,
+    "mvp": 13
+  },
+  {
+    "pseudo": "StarlightStriker",
+    "elos": 700,
+    "played": 35,
+    "win": 20,
+    "lost": 15,
+    "mvp": 9
+  },
+  {
+    "pseudo": "CosmicCrusader",
+    "elos": 990,
+    "played": 45,
+    "win": 40,
+    "lost": 5,
+    "mvp": 20
+  },
+  {
+    "pseudo": "AstroAssassin",
+    "elos": 580,
+    "played": 20,
+    "win": 12,
+    "lost": 8,
+    "mvp": 6
+  },
+  {
+    "pseudo": "LunarLionheart",
+    "elos": 780,
+    "played": 40,
+    "win": 28,
+    "lost": 12,
+    "mvp": 11
+  },
+  {
+    "pseudo": "PulsarProdigy",
+    "elos": 910,
+    "played": 50,
+    "win": 38,
+    "lost": 12,
+    "mvp": 16
+  },
+  {
+    "pseudo": "SolarStormer",
+    "elos": 550,
+    "played": 25,
+    "win": 10,
+    "lost": 15,
+    "mvp": 7
+  },
+  {
+    "pseudo": "GalaxyGuard",
+    "elos": 750,
+    "played": 30,
+    "win": 20,
+    "lost": 10,
+    "mvp": 10
+  },
+  {
+    "pseudo": "InterstellarInferno",
+    "elos": 480,
+    "played": 15,
+    "win": 5,
+    "lost": 10,
+    "mvp": 2
   }
 ]
