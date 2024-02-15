@@ -8,15 +8,14 @@ import LeaderBoard from "./pages/LeaderBoard";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+        <BrowserRouter basename={"rt-web"}>
         <Routes>
-            <Route path="/rt-web" element={<HomePage />}/>
+            <Route path="/" element={<HomePage />}/>
+            <Route path="/staffs" element={<Staffs />}/>
+            <Route path="/leaderboard" element={<LeaderBoard />}/>
             <Route path="/*" element={<HomePage />}/>
-
-            <Route path="/rt-web/staffs" element={<Staffs />}/>
-            <Route path="/rt-web/leaderboard" element={<LeaderBoard />}/>
         </Routes>
-      </BrowserRouter>
+        </BrowserRouter>
     </div>
   );
 }
