@@ -66,7 +66,7 @@ const Table = () => {
             const rankedData = sorted.map((item, index) => ({ ...item, ranking: index +1 }));
             setTableData(rankedData);
         }
-    }, [tableData]);
+    }, []);
 
     useEffect(() => {
         handleBasicSorting("elos", "desc");
